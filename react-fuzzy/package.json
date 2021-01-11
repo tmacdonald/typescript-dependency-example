@@ -1,6 +1,6 @@
 {
   "name": "react-fuzzy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "tmacdonald",
   "license": "MIT",
@@ -10,6 +10,9 @@
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-private"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
