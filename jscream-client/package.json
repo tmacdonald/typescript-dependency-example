@@ -1,0 +1,13 @@
+{
+  "name": "jscream-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "jscream": "1.0.0"
+  },
+  "license": "MIT"
+}

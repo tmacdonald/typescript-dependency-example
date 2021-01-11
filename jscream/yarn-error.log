@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/tmacdonald/.nvm/versions/node/v14.14.0/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js publish
+
+PATH: 
+  /Users/tmacdonald/.nvm/versions/node/v14.14.0/bin:/usr/local/opt/jenv/shims:/usr/local/opt/node@6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tmacdonald/development/tools/apache-maven-2.2.1/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:309:12)
+
+npm manifest: 
+  {
+    "name": "jscream",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+      "registry": "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-private"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
