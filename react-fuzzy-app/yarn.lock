@@ -1164,12 +1164,17 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fuze/react-fuzzy@^1.0.3":
-  version "1.0.3"
-  resolved "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-group/@fuze/react-fuzzy/-/react-fuzzy-1.0.3.tgz#753df7ade1ee7fd7b005b7e36e50abc222501a62"
-  integrity sha512-bMDSLt8RZgJ2GlNnQSYAyV6sJ35TXGVcOiAU0YCoTLIxFbCpOiAQz8vD3oR0hlH6z88SbAhxJI9NG/3A+QTi7Q==
+"@fuze/jscream@^1.0.0":
+  version "1.1.0"
+  resolved "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-group/@fuze/jscream/-/jscream-1.1.0.tgz#0424ed98e721ef4e0f5480df21ca87bfa85a1003"
+  integrity sha512-QrHX3aai7VNekJsedfnm1qCeLZ6u6wfYMzDcrhWNEK2ZwCr8DbQXvO/dxaFtLsIH/zUnknvtGxYA84q6CpHE7w==
+
+"@fuze/react-fuzzy@1.0.4":
+  version "1.0.4"
+  resolved "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-group/@fuze/react-fuzzy/-/react-fuzzy-1.0.4.tgz#5b2e49fe3b3cb6bccd2ec1356cf4d0efa815c248"
+  integrity sha512-m6nCW0AyorCMDcbRklaH87Toc6I7//CmOOHXeuMS2w4c8u0CCuUDwiyJwaUZgIe9TsP4SfeKRxLMHz5/ddi6Sg==
   dependencies:
-    jscream "^1.0.0"
+    "@fuze/jscream" "^1.0.0"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -6629,11 +6634,6 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
-
-jscream@^1.0.0:
-  version "1.0.1"
-  resolved "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-group/jscream/-/jscream-1.0.1.tgz#27c4f1704538ac2257774d14f95b044a56c9dc90"
-  integrity sha512-B6JOz0tGQjuYSE1XKWdOOi/52EIwD/LonA/DycCYdJAaselGVMiu/+7DqJP8TB7Q3oBqzHqoo+TK7dzwyn8r6w==
 
 jsdom@^16.4.0:
   version "16.4.0"

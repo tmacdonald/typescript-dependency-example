@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styles from './styles.module.css'
-import scream from "jscream"
+import scream from "@fuze/jscream"
 
 interface Props {
   text: string
