@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-jscream@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jscream/-/jscream-1.0.0.tgz#6f29e7403d61ac5f64aa0a06806f444e2c2a85df"
-  integrity sha512-r7N3pI4VxzwTaJgHipMsg3Q0ABtYldFOeXwSNxMU44eC8fi5u+Nn6Gm1DHwkl2fNUKhGmVMN7hB8wXrcogRE6A==
+"@fuze/jscream@^1.1.0":
+  version "1.1.0"
+  resolved "http://nexus-repo.svc.tpn.thinkingphones.net/repository/npm-private/@fuze/jscream/-/jscream-1.1.0.tgz#0424ed98e721ef4e0f5480df21ca87bfa85a1003"
+  integrity sha512-QrHX3aai7VNekJsedfnm1qCeLZ6u6wfYMzDcrhWNEK2ZwCr8DbQXvO/dxaFtLsIH/zUnknvtGxYA84q6CpHE7w==

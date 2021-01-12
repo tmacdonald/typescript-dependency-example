@@ -64,6 +64,6 @@
     "dist/index.d.ts"
   ],
   "dependencies": {
-    "jscream": "^1.0.0"
+    "@fuze/jscream": "^1.0.0"
   }
 }

@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "jscream": "1.0.0"
+    "@fuze/jscream": "^1.1.0"
   },
   "license": "MIT"
 }

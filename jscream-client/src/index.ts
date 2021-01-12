@@ -1,3 +1,3 @@
-import scream from "jscream"
+import scream from "@fuze/jscream"
 
 console.log(scream("test."))
